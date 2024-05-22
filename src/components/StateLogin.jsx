@@ -46,6 +46,8 @@ export default function Login() {
   function handleSubmit(event) {
     event.preventDefault();
 
+    // if(...) need if we send request, same in Login component
+
     // reset forms
     setEnteredValues({
       email: '',
