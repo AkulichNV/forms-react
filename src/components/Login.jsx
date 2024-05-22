@@ -9,6 +9,9 @@ export default function Login() {
 
     const enteredEmail = email.current.value;
     const enteredPassword = password.current.value;
+
+    // reset the inputs
+    email.current.value = ''; // but it not recommended
   }
 
   return (
